@@ -46,6 +46,14 @@ main {
     flex-direction: row;
 }
 
+.in-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.in-row-reverse {
+    flex-direction: row-reverse;
+}
+
 .justify-content-start {
     justify-content: start;
 }
@@ -82,12 +90,6 @@ main {
     align-items: center;
 }
 
-.child {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #0c0fd9;
-}
-
 .wrapper {
     height: 100vh;
     width: 100%;
@@ -111,6 +113,9 @@ main {
     font-weight: 700;
     background: rgba(0, 244, 255, 0.5);
     border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0c0fd9;
 }
 
 .options {
@@ -152,4 +157,26 @@ fieldset label {
     font-size: 16px;
     padding: 5px;
     font-weight: 300;
+}
+
+@media screen and (min-width: 375px)  {
+    .wrapper {
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .parent {
+        width: 350px;
+        height: 300px;
+        padding: 10px;
+        gap: 10px;
+        border: 2px solid #d98c0c;
+        border-radius: 5px;
+        background: rgba(215, 215, 215, 0.5);
+    }
+
+    .child {
+        width: 70px;
+        height: 70px;
+    }
 }
