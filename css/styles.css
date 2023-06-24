@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+header {
+    max-width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer {
+    font-size: 14px;
+    flex-grow: 0.2;
+    font-weight: 300;
+}
+
+main {
+    gap: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.in-column {
+    flex-direction: column;
+}
+
+.in-row {
+    flex-direction: row;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0c0fd9;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.parent {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid #d98c0c;
+    border-radius: 5px;
+    background: rgba(215, 215, 215, 0.5);
+}
+
+.child {
+    font-size: 24px;
+    font-weight: 700;
+    background: rgba(0, 244, 255, 0.5);
+    border-radius: 5px;
+}
+
+.options {
+    gap: 10px;
+    max-width: 500px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+fieldset {
+    border: 1px solid #7a7a7a;
+    border-radius: 2px;
+    padding: 0 20px 20px;
+}
+
+fieldset legend {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+fieldset label {
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 300;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<div class="flex in-column wrapper">
+    <header>
+        <h1>CSS Flex Options Visualizations</h1>
+    </header>
+    <main class="flex in-column">
+        <div id="result" class="flex in-row justify-content-start align-items-start parent">
+            <div class="flex justify-content-center align-items-center child box-1">1</div>
+            <div class="flex justify-content-center align-items-center child box-2">2</div>
+            <div class="flex justify-content-center align-items-center child box-3">3</div>
+        </div>
+
+        <div class="flex in-row justify-content-space-between options">
+            <fieldset id="flex-direction" class="flex in-column justify-content-start w100">
+                <legend>flex-direction</legend>
+                <label>
+                    <input type="radio" name="flex-direction" value="row" checked> row
+                </label>
+                <label>
+                    <input type="radio" name="flex-direction" value="column"> column
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="flex in-row flex-wrap justify-content-space-between options">
+
+            <fieldset id="justify-content" class="flex in-column w100">
+                <legend>justify-content</legend>
+                <label>
+                    <input type="radio" name="justify-content" value="start" checked> start
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="end"> end
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="center"> center
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="space-around"> space-around
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="space-between"> space-between
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="space-evenly"> space-evenly
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="flex in-row justify-content-space-between options">
+            <fieldset id="align-items" class="flex in-column w100">
+                <legend>align-items</legend>
+                <label>
+                    <input type="radio" name="align-items" value="start" checked> start
+                </label>
+                <label>
+                    <input type="radio" name="align-items" value="end"> end
+                </label>
+                <label>
+                    <input type="radio" name="align-items" value="center"> center
+                </label>
+            </fieldset>
+        </div>
+    </main>
+
+    <footer class="flex in-column justify-content-end align-items-center w50">
+        <p>Flex properties visualization by Felipe Jofré. <a href="">Repository</a></p>
+    </footer>
+</div>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
