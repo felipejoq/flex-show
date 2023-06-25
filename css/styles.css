@@ -159,7 +159,7 @@ fieldset label {
     font-weight: 300;
 }
 
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 500px)  {
     .wrapper {
         height: auto;
         width: 100%;
