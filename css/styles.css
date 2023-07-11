@@ -91,7 +91,7 @@ main {
 }
 
 .wrapper {
-    height: 100vh;
+    height: auto;
     width: 100%;
     justify-content: center;
     align-items: center;
